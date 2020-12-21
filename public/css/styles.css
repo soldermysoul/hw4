@@ -1,0 +1,125 @@
+body {
+    font-family: 'Krub';
+    background-color:#CCCCCC;
+    color:gray;
+}
+
+header, main, nav {
+    text-align: center;
+}
+
+a:link {
+	color:#000000; 
+	text-decoration:none; 
+	font-weight:bold; 
+	font-style:italic
+}
+a:visited {
+	color:#CCCCCC; 
+	font-weight:bold; 
+	text-decoration:underline
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
+
+nav a {     /* links within "nav" container */
+    padding:15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none;   /* removes underline */
+    color: white;            /* by default, links are blue */
+} 
+
+nav a:hover {  /*pseudo class*/
+     border-bottom:2px orange solid;
+     font-size: 2em;
+     transition: .9s;  /* transition effect */
+}
+
+.active-page
+{
+  color:blue;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: white;
+    color: #84C1F6;
+}
+
+footer {
+  margin: 25px 50px 75px;
+}
+
+footer {
+    font-size: 14px;
+}
+
+footer {
+    text-align: left;
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    padding-bottom: 40px;
+    font-size: 1.3em;
+    color: white;
+}
+
+td strong {
+    color: orange;
+}
+
+#table-header {
+    background-color: #351a00;
+}
+
+.table-row {
+    background-color: #753900;
+}
+
+ul {
+    width:500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+li {
+    color: white;
+}
+
+.hobby {
+    color: yellow;
+}
+
+h1 {
+    font-family: 'Krub';
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+.copyright {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
